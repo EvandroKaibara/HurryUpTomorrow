@@ -1,0 +1,127 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+:root{
+    --primary-color: #8c0d0c;
+    --background--color: #333333;
+    --header-font: "Montserrat", sans-serif;
+}
+
+body{
+    background-color: var(--background--color);
+    color: #fff;
+}
+
+header{
+    font-family: var(--header-font);
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+
+nav{
+    display: flex;
+    width: 100%;
+    font-size: 25px;
+}
+
+h2{
+    color: var(--primary-color);
+    width: 60%;
+    padding: 15px;
+}
+
+span{
+    color: #fff;
+}
+
+.container--links{
+    color: #fff;
+    padding: 20px;
+}
+
+a{
+    color: #fff;
+    font-weight: bolder;
+    padding: 15px;
+}
+
+main{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+img{
+    border-radius: 20px;
+}
+
+.container-album{
+    display: flex;
+    padding: 5vh 10vh;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.container--text{
+    font-family: var(--header-font);
+    padding-left: 5vh;
+    padding-right: 30vh;
+    text-align: left;
+}
+
+h1{
+    font-size: 60px;
+}
+
+p{
+    padding: 10px;
+    font-size: 30px;
+}
+
+.span--singles{
+    font-family: var(--header-font);
+    font-weight: bolder;
+    font-style: italic;
+    padding: 5vh 10vh;
+    font-size: 60px;
+}
+
+.container--cards{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 5vh;
+}
+
+.container--dancingInTheFlames, .container--timeless, .container--saoPaulo{
+    display: flex;
+    flex-direction: column;
+}
+
+.a--card{
+    background-color: var(--primary-color);
+    padding: 25px;
+    margin: 40px;
+    border-radius: 100px;
+    text-align: center;
+    font-family: var(--header-font);
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.a--card:hover{
+    background-color: #fff;
+    color: var(--primary-color);
+}
+
+footer{
+    font-family: var(--header-font);
+    padding: 20px;
+    display: flex;
+    background-color: #000;
+    justify-content: center;
+}
