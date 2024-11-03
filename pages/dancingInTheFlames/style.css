@@ -12,6 +12,8 @@
 body{
     background-color: var(--background--color);
     color: #fff;
+    scrollbar-width: thin;
+    scrollbar-color: #1ed085
 }
 
 header{
@@ -50,6 +52,7 @@ a{
     padding: 15px;
 }
 
+
 main{
     display: flex;
     justify-content: space-around;
@@ -72,19 +75,29 @@ img{
     padding-left: 5vh;
     padding-right: 30vh;
     text-align: left;
+    overflow-y: scroll;
+    height: 500px;
+    width: 70%;
 }
 
 h1{
     font-size: 60px;
 }
 
+.span--letra{
+    font-family: var(--header-font);
+    font-weight: bolder;
+    padding: 20px;
+    background-color: #a6783f;
+    border-radius: 50px;
+}
 
 p{
     padding: 10px;
     font-size: 30px;
 }
 
-.span--singles{
+.span--videos, .span--sobre{
     font-family: var(--header-font);
     font-weight: bolder;
     font-style: italic;
@@ -92,31 +105,22 @@ p{
     font-size: 60px;
 }
 
-.container--cards{
+.container--videos{
     display: flex;
     justify-content: space-around;
-    padding-bottom: 5vh;
+    
 }
 
-.container--dancingInTheFlames, .container--timeless, .container--saoPaulo{
-    display: flex;
-    flex-direction: column;
-}
-
-.a--card{
-    background-color: var(--primary-color);
-    padding: 25px;
-    margin: 40px;
-    border-radius: 100px;
-    text-align: center;
+.p--desc{
     font-family: var(--header-font);
-    font-size: 30px;
-    text-decoration: none;
+    padding: 5vh 15vh;
+    font-size: 40px;
 }
 
-.a--card:hover{
-    background-color: #fff;
-    color: var(--primary-color);
+iframe{
+    width: 800px;
+    height: 500px;
+    padding: 5vh;
 }
 
 footer{
